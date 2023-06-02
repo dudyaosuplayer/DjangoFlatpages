@@ -1,0 +1,2 @@
+# DjangoFlatpages
+Django Flatpages
