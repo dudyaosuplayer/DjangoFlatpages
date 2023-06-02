@@ -1,0 +1,14 @@
+<i>
+   {% extends 'flatpages/default.html' %}
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>{% block title %} Biba  {% endblock title %}</title>
+        </head>
+        <body>
+            <p style="text-align: center;">{% block content %} <i> {{ flatpage.title }} {{ flatpage.content }} {{ flatpage.content }} </i> {% endblock content %}</p>
+        </body>
+
+    </html>
+</i>
